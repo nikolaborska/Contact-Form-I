@@ -1,0 +1,137 @@
+body {
+  font-size: 18px;
+}
+
+/*H E A D I N G S*/
+
+h1 {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 50px;
+}
+
+h3 { 
+    text-align: center;
+    margin-top: 35px;
+    font-size: 28px;
+    color: black;
+    margin-left: -80px;
+}
+
+.paw{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    margin-top: 21px;
+    margin-left: 214px;
+}
+
+/*I M A G E*/
+
+img {
+    width: 375px;
+    height: 500px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 360px;
+    border-radius: 14% 0 0 14%;
+}
+
+/*F O R M*/
+
+.contact {
+    /*border: 1px solid black;*/
+    width: 375px;
+    height: 500px;
+    margin-right: 323px;
+    margin-top: 181px;
+    opacity: 80%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(90deg, hsla(77, 54%, 28%, 1) 29%, hsla(29, 61%, 59%, 1) 100%);
+    border-radius: 0 14% 14% 0;
+}
+
+/*I N P U T*/
+
+input {
+    display: flex;
+    width: 270px;
+    height: 55px;
+    margin-left: 46px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+/*T E X T  A R E A*/
+
+textarea {
+    width: 270px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 46px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 18px;
+    resize: none;
+    overflow: auto; /*scrollbar*/
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+textarea::placeholder{
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+/*B U T T O N*/
+
+button{
+    color: black;
+    background: transparent;
+    /* background-color: #1b2f31; */
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 102px;
+    font-size: 20px;
+    /* font-weight: 600; */
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 15px;
+    margin-left: 127px;
+}
+
+button:hover{
+    background-color: #87a84c;
+    transition: 0.3s;
+}
+
+/*button:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #87a84c;
+    transition: 0.3s;
+}*/
+
+button:active{
+    background-color: #b9c47e;
+}
+
+footer{
+    /*text-align: center;*/
+    margin-top: 50px;
+    margin-left: -54px;
+}
